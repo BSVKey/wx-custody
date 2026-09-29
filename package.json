@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "author": "Embryo Space Inc. (DBA BSVKey) <support@embryospace.com>",
   "description": "Custody receipts for NOAA open weather-satellite data corroborated across AWS, Google Cloud and Azure mirrors",
-  "engines": { "node": ">=20" },
-  "scripts": { "run": "node bin/run.mjs", "verify": "node bin/verify.mjs", "test": "node --test" }
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "run": "node bin/run.mjs",
+    "verify": "node bin/verify.mjs",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BSVKey/wx-custody.git"
+  },
+  "homepage": "https://github.com/BSVKey/wx-custody"
 }

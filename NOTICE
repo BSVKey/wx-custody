@@ -1,0 +1,14 @@
+wx-custody
+Copyright 2026 Embryo Space Inc. (DBA BSVKey)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+lib/canonical.mjs, lib/merkle.mjs and lib/keys.mjs originate from the DTN Custody +
+Payment Demo (https://github.com/BSVKey/dtn-custody-demo), also owned by Embryo Space Inc.
+and licensed under Apache-2.0.
+
+Data processed by this software comes from NOAA's Open Data Dissemination program, served
+by public mirrors on Amazon Web Services, Google Cloud and Microsoft Azure. NOAA data is a
+US Government work in the public domain (17 U.S.C. 105) and is not part of this software.
+
+wx-custody is not affiliated with or endorsed by NOAA, Amazon, Google or Microsoft.

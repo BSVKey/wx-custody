@@ -35,7 +35,16 @@ all 105 mirror copies: 0 changed.
 
 - Records attest what the public mirrors served and when, not conditions on the ground.
 - NOAA data is a US Government work in the public domain (17 U.S.C. 105).
-- Not affiliated with or endorsed by NOAA.
+- Not affiliated with or endorsed by NOAA, Amazon, Google or Microsoft.
 - Read-only. Anchoring a window root on chain is a separate, manual step.
 
-Copyright 2026 Embryo Space Inc. (DBA BSVKey). All rights reserved until a license is chosen.
+## Weather Custody Pro
+
+A commercial edition adds NEXRAD radar and USGS earthquake sources, revision history and
+"what did the data show at trigger time" lookups for insurers and calculation agents.
+Available on request: support@embryospace.com.
+
+## License
+
+Apache License 2.0, provided "AS IS" without warranties or conditions of any kind (see
+[LICENSE](LICENSE), section 7). Copyright 2026 Embryo Space Inc. (DBA BSVKey). See [NOTICE](NOTICE).
