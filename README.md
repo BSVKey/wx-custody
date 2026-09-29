@@ -20,6 +20,7 @@ and whether it was even available.
 ```bash
 node bin/run.mjs                                   # GOES-19 rainfall rate (ABI-L2-RRQPEF), last 6 h
 node bin/run.mjs --product ABI-L2-DSIC --hours 3   # any GOES product
+node bin/run.mjs --product SEIS-L1b-SGPS --hours 1  # space weather: particles (also MAG, SUVI, EXIS)
 node bin/verify.mjs --run out/<runId> --pub <custody public key> --refetch
 npm test                                           # offline, zero dependencies
 ```
@@ -30,6 +31,12 @@ GOES-19 rainfall rate, 6 hours: 35 files, all byte-identical on all three mirror
 missing 10-minute slots, no checksum-claim failures. Median publication lag after scan
 end: AWS 12 s, Azure 20 s, Google Cloud 25 s. Independent re-verification re-downloaded
 all 105 mirror copies: 0 changed.
+
+## Space weather (2026-09-29)
+
+GOES-19 space-weather products work the same way. One hour of SEIS-L1b-SGPS particle data:
+59 one-minute files, all byte-identical on AWS, Google Cloud and Azure, no missing slots;
+median publication lag AWS 9 s, Azure 17 s, Google Cloud 21 s.
 
 ## Boundaries
 

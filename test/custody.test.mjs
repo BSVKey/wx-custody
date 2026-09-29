@@ -23,6 +23,10 @@ test("GOES file names parse to real timestamps", () => {
   assert.equal(m.satellite, "GOES-19");
   assert.equal(m.mode, 6);
   assert.equal(parseGoesName("not-a-goes-file.txt"), null);
+  const swx = parseGoesName("SEIS-L1b-SGPS/2026/272/03/OR_SEIS-L1b-SGPS_G19_s20262720300000_e20262720300590_c20262720301004.nc");
+  assert.equal(swx.product, "SEIS-L1b-SGPS");
+  assert.equal(swx.mode, null);
+  assert.equal(swx.scanEnd, "2026-09-29T03:00:59.000Z");
   assert.deepEqual(hourPrefixes("P", new Date("2026-09-29T02:30:00Z"), new Date("2026-09-29T04:10:00Z")), ["P/2026/272/02/", "P/2026/272/03/", "P/2026/272/04/"]);
 });
 
