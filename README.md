@@ -51,6 +51,10 @@ A commercial edition adds NEXRAD radar and USGS earthquake sources, revision his
 "what did the data show at trigger time" lookups for insurers and calculation agents.
 Available on request: support@embryospace.com.
 
+## Record format
+
+Record formats are specified in [CUSTODY-RECORDS.md](https://github.com/BSVKey/dtn-custody-demo/blob/main/spec/CUSTODY-RECORDS.md), with test vectors.
+
 ## License
 
 Apache License 2.0, provided "AS IS" without warranties or conditions of any kind (see
