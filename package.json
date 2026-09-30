@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "license": "Apache-2.0",
-  "author": "Embryo Space Inc. (DBA BSVKey) <support@embryospace.com>",
+  "author": "Embryo Space Inc. (DBA BSVKey) <embryospace@gmail.com>",
   "description": "Custody receipts for NOAA open weather-satellite data corroborated across AWS, Google Cloud and Azure mirrors",
   "engines": {
     "node": ">=20"

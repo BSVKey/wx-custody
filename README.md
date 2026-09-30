@@ -49,7 +49,7 @@ median publication lag AWS 9 s, Azure 17 s, Google Cloud 21 s.
 
 A commercial edition adds NEXRAD radar and USGS earthquake sources, revision history and
 "what did the data show at trigger time" lookups for insurers and calculation agents.
-Available on request: support@embryospace.com.
+Available on request: embryospace@gmail.com.
 
 ## Record format
 
